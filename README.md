@@ -1,5 +1,6 @@
 # kotlin+rxjava2+retrofit2
 ![avatar](https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/1.jpg)
+<img src="https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/1.jpg" width="400" hegiht="313" align=center />
 ![avatar](https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/2.jpg)
 ![avatar](https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/3.jpg)
 ## 2019-07-18
