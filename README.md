@@ -1,8 +1,9 @@
 # kotlin+rxjava2+retrofit2
-![avatar](https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/1.jpg)
-<img src="https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/1.jpg" width="400" hegiht="313" align=center />
-![avatar](https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/2.jpg)
-![avatar](https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/3.jpg)
+
+<img src="https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/1.jpg" width="300" align=center />
+<img src="https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/2.jpg" width="300" align=center />
+<img src="https://github.com/VcStrong/KotlinMVPDemo/blob/master/image/3.jpg" width="300" align=center />
+
 ## 2019-07-18
 注：WDPresenter以下简称BP;NetworkManager为Retrofit网络工具类<br/>
 1.BP中实现了模块的请求切换和结果统一封装回调，继承BP之后只需要写业务逻辑和调用请求，参见任意*Presenter <br/>
