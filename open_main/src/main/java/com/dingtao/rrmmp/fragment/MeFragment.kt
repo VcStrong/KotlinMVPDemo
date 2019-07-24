@@ -11,6 +11,7 @@ import com.dingtao.rrmmp.adapter.CircleAdpater
 import com.dingtao.common.core.WDFragment
 import com.dingtao.common.core.db.DaoMaster
 import com.dingtao.common.core.db.UserInfoDao
+import com.dingtao.rrmmp.activity.MainActivity
 import com.dingtao.rrmmp.presenter.CirclePresenter
 import kotlinx.android.synthetic.main.frag_me.view.*
 

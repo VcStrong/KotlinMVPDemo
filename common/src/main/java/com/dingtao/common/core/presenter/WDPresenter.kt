@@ -12,6 +12,7 @@ import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
+import java.util.function.Function
 
 /**
  * @author dingtao
@@ -59,6 +60,7 @@ abstract class WDPresenter<T, E> constructor(private val dataCall: DataCall<E>) 
 
         disposable = observable.subscribeOn(Schedulers.io())//将请求调度到子线程上
                 .observeOn(AndroidSchedulers.mainThread())//观察响应结果，把响应结果调度到主线程中处理
+//                .onErrorReturn {  }
                 .subscribe({ result ->
                     isRunning = false
                     if (result.status == "0000") {

@@ -43,8 +43,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     kapt 'com.alibaba:arouter-compiler:1.2.1'
     api project(path: ':common')
-    implementation "androidx.core:core-ktx:+"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
 repositories {
     mavenCentral()

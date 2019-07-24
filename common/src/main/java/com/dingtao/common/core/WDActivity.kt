@@ -24,7 +24,7 @@ import com.dingtao.common.util.LogUtils
 abstract class WDActivity : AppCompatActivity() {
     lateinit var mLoadDialog: Dialog// 加载框
 
-    lateinit var LOGIN_USER: UserInfo
+    var LOGIN_USER: UserInfo? = null
 
     /**
      * 设置layoutId

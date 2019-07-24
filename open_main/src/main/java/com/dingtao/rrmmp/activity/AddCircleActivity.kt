@@ -51,8 +51,8 @@ class AddCircleActivity : WDActivity() {
     }
 
     fun publish() {
-        presenter.reqeust(LOGIN_USER.userId,
-                LOGIN_USER.sessionId,
+        presenter.reqeust(LOGIN_USER!!.userId,
+                LOGIN_USER!!.sessionId,
                 1, mText!!.text.toString(), mImageAdapter.list)
     }
 

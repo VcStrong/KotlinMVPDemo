@@ -68,7 +68,7 @@ class LoginActivity : WDActivity() {
             return
         }
         if (mRemPas!!.isChecked) {
-            WDApplication.share!!.edit().putString("mobile", m)
+            WDApplication.share.edit().putString("mobile", m)
                     .putString("pas", p).commit()
         }
         mLoadDialog.show()

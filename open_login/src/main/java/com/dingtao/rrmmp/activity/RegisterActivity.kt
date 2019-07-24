@@ -66,7 +66,7 @@ class RegisterActivity : WDActivity() {
      * @date 2018/12/28 10:44 AM
      * 注册
      */
-    internal inner class RegisterCall : DataCall<Any> {
+    inner class RegisterCall : DataCall<Any> {
 
         override fun success(result: Any?, args: List<Any>) {
             mLoadDialog.cancel()
